@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu } from "antd";
 import { Link } from "react-router-dom";
+import SocialLinks from "../SocialLinks";
 import { getMenuApi } from "../../../api/menu";
 import logoWhite from "../../../assets/img/png/logo-white.png";
 
@@ -45,7 +46,7 @@ export default function MenuTop() {
           </Menu.Item>
         );
       })}
-      <div>Social Media...</div>
+      <SocialLinks />
     </Menu>
   );
 }
