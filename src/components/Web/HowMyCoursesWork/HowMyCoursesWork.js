@@ -25,21 +25,21 @@ export default function HowMyCoursesWork() {
             <CardInfo
               icon={<ClockCircleOutlined className="ccoutlined" />}
               title="Java"
-              description="Cursos de entre 10 y 30 horas y cada clase del curso con duración máxima de 15 minutos, faciles de llevar en tu día a día de aprendizaje."
+              description="Java"
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<KeyOutlined className="koutlined" />}
               title="Kotlin"
-              description="Accede a los cursos en cualquier momento, desde cualquier lugar sin importar día y hora."
+              description="Kotlin"
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<MessageOutlined className="msgoutlined" />}
               title="Swift"
-              description="Aprende de los demás dejando tus dudas para que profesores y compañeros te ayuden."
+              description="Swift"
             />
           </Col>
         </Row>
@@ -48,21 +48,21 @@ export default function HowMyCoursesWork() {
             <CardInfo
               icon={<UserOutlined className="ussoutlined" />}
               title="React"
-              description="Aprende y mejora tu perfil para mantenerte informado de actualizaciones."
+              description="React"
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<DollarOutlined className="ddoulined" />}
               title="C#"
-              description="Obtén el curso que necesitas por solo 9.99 y ten acceso a el por tiempo ilimitado y soporte ilimitado."
+              description="C#"
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<CheckCircleOutlined className="ccoutlineds" />}
               title="Node JS"
-              description="Al completar tu un curso recibirás una certificación que te expedirá Udemy en PDF."
+              description="Node JS"
             />
           </Col>
         </Row>
