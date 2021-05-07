@@ -10,10 +10,7 @@ export default function ReviewsCourses() {
       <Row>
         <Col lg={4} />
         <Col lg={16} className="reviews-courses__title">
-          <h2>
-            Forma parte de los +35 mil estudiantes que estan aprendiendo con mis
-            cursos
-          </h2>
+          <h2>Aún viendo que poner 123</h2>
         </Col>
         <Col lg={4} />
       </Row>
@@ -23,52 +20,52 @@ export default function ReviewsCourses() {
           <Row className="row-cards">
             <Col md={8}>
               <CardReview
-                name="Alonso Campos"
-                subtitle="Alumno de Udemy"
+                name="To do"
+                subtitle="To do"
                 avatar={AvatarPersona}
-                review="Un curso excelente, el profesor explica detalladamente como funciona react native y también como hacer componente por componente, he buscado muchos cursos de react native pero ninguno me ha enseñado tanto como este, ahora estoy desarrollando mi propia aplicación sin ningún tipo de problema gracias al curso."
+                review="To do"
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="David Ramiro"
-                subtitle="Alumno de Udemy"
+                name="Aun viendo que poner"
+                subtitle="Aun viendo que poner 123"
                 avatar={AvatarPersona}
-                review="Si te gustan los cursos que profundizan en la materia, te lo recomiendo. El profesor explica de forma completa todos los conceptos necesarios para trabajar con grid. Un gran curso."
+                review="7 is the only number D for which the equation 2 n − D = x 2 has more than two solutions for n and x natural. In particular, the equation 2 n − 7 = x 2 is known as the Ramanujan-Nagell equation. 7 is the only dimension, besides the familiar 3, in which a vector cross product can be defined."
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="Valentina Rubio"
-                subtitle="Alumna de Udemy"
+                name="To do"
+                subtitle="To do"
                 avatar={AvatarPersona}
-                review="El contenido del curso es muy completo y de necesitar cualquier dato adicional el profesor está super pendiente para responderlo. Ya tengo creado mi E-commerce con WordPress y gran parte de la información necesaria la obtuve del curso."
+                review="To do"
               />
             </Col>
           </Row>
           <Row className="row-cards">
             <Col md={8}>
               <CardReview
-                name="Marc Pérez"
-                subtitle="Alumno de Udemy"
+                name="To do"
+                subtitle="To do"
                 avatar={AvatarPersona}
-                review="Empecé el curso sin saber nada de React Native y creo que lo finalizo teniendo un nivel de conocimiento como para embarcarme en realizar mi primera aplicación."
+                review="To do"
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="Jesús Cruz"
-                subtitle="Alumno de Udemy"
+                name="To do"
+                subtitle="To do"
                 avatar={AvatarPersona}
-                review="Me ha parecido un buen curso, las explicaciones muy claras y lo que enseña me ha sido muy útil para la aplicación que me habían encargado."
+                review="To do"
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="Francisco Garcia"
-                subtitle="Alumna de Udemy"
+                name="To do"
+                subtitle="To do"
                 avatar={AvatarPersona}
-                review="Aprendes todo lo que promete el video de inicio y te da la capacidad para después crear tus propias apps. Gracias Agus por crear este curso, tenes mucho talento para explicar y se nota que te encanta hacerlo."
+                review="To do"
               />
             </Col>
           </Row>

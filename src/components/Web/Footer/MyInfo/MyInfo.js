@@ -9,8 +9,8 @@ export default function MyInfo() {
     <div className="my-info">
       <img src={LogoWhite} alt="Juan Hervas" />
       <h4>
-        Entra en el mundo del desarrollo web, disfruta creando proyectos de todo
-        tipo, deja que tú imaginación fluya y crea verdaderas maravillas!!
+        "You can mass-produce hardware; you cannot mass-produce software; you
+        cannot mass:produce the human mind" {<br></br>}-Michio Kaku
       </h4>
       <SocialLink />
     </div>

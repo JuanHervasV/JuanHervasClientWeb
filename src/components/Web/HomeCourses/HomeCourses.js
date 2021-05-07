@@ -34,7 +34,7 @@ export default function HomeCourses() {
               image={ruteandoQuickView}
               title="Hitos"
               subtitle="Status changer Mobile App"
-              link="https://courses.agustinnavarrogaldon.com/react-native-expo"
+              link="https://play.google.com/store/apps/details?id=com.JuanHervas.HitoScharff"
             />
           </Col>
           <Col md={6}>
@@ -42,7 +42,7 @@ export default function HomeCourses() {
               image={ruteandoQuickView}
               title="SGD Valija"
               subtitle="Barcode Scanner Mobile App"
-              link="https://courses.agustinnavarrogaldon.com/javascript"
+              link="https://play.google.com/store/apps/details?id=com.JH.SGDScharffAgo"
             />
           </Col>
           <Col md={6}>
@@ -50,7 +50,7 @@ export default function HomeCourses() {
               image={ruteandoQuickView}
               title="Wap Reborn"
               subtitle="Pick up packages Mobile App"
-              link="https://courses.agustinnavarrogaldon.com/wordpress"
+              link="https://play.google.com/store/apps/details?id=com.JH.SGDScharffAgo"
             />
           </Col>
         </Row>
@@ -70,7 +70,7 @@ export default function HomeCourses() {
               image={puntoscharffQuicView}
               title="Proteo Bot"
               subtitle="Informative - Chat-bot"
-              link="https://www.facebook.com/messages/t/105285874227515"
+              link="https://www.facebook.com/messages/t/100695861308072"
             />
           </Col>
         </Row>

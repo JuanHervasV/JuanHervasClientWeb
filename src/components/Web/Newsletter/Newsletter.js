@@ -34,7 +34,7 @@ export default function Newsletter() {
 
   return (
     <div className="newsletter">
-      <h3>Newsletter</h3>
+      <h3>Newsletter - Future updates</h3>
       <Form onFinish={onSubmit}>
         <Form.Item>
           <Input
@@ -50,7 +50,7 @@ export default function Newsletter() {
             htmlType="submit"
             className="login-form-button"
           >
-            ¡Me suscribo!
+            Suscribe
           </Button>
         </Form.Item>
       </Form>
