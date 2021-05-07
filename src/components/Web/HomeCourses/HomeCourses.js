@@ -7,6 +7,8 @@ import javaScript from "../../../assets/img/jpg/javascript-es6.jpg";
 import wordPress from "../../../assets/img/jpg/wordpress.jpg";
 import prestaShop from "../../../assets/img/jpg/prestashop-1-7.jpg";
 import cssGrid from "../../../assets/img/jpg/css-grid.jpg";
+import ruteandoQuickView from "../../../assets/img/png/ruteando-quickview.png";
+import puntoscharffQuicView from "../../../assets/img/png/puntoscharff-quickview.png";
 
 import "./HomeCourses.scss";
 
@@ -14,40 +16,40 @@ export default function HomeCourses() {
   return (
     <Row className="home-courses">
       <Col lg={24} className="home-courses__title">
-        <h2>Aprende y mejora tus habilidades</h2>
+        <h2>Proyects quickview</h2>
       </Col>
       <Col lg={4} />
       <Col lg={16}>
         <Row className="row-courses">
           <Col md={6}>
             <CardCourse
-              image={reactJsHooks}
-              title="React JS Hooks"
-              subtitle="Intermedio - React/JavaScript"
-              link="https://courses.agustinnavarrogaldon.com/react"
+              image={ruteandoQuickView}
+              title="Ruteando"
+              subtitle="Entertainment Mobile App"
+              link="https://play.google.com/store/apps/details?id=com.JH.ruteandoapp"
             />
           </Col>
           <Col md={6}>
             <CardCourse
-              image={reactNative}
-              title="React Native Expo"
-              subtitle="Intermedio - React/JavaScript"
+              image={ruteandoQuickView}
+              title="Hitos"
+              subtitle="Status changer Mobile App"
               link="https://courses.agustinnavarrogaldon.com/react-native-expo"
             />
           </Col>
           <Col md={6}>
             <CardCourse
-              image={javaScript}
-              title="JavaScript ES6"
-              subtitle="Básico - JavaScript"
+              image={ruteandoQuickView}
+              title="SGD Valija"
+              subtitle="Barcode Scanner Mobile App"
               link="https://courses.agustinnavarrogaldon.com/javascript"
             />
           </Col>
           <Col md={6}>
             <CardCourse
-              image={wordPress}
-              title="WordPress"
-              subtitle="Básico - WordPress"
+              image={ruteandoQuickView}
+              title="Wap Reborn"
+              subtitle="Pick up packages Mobile App"
               link="https://courses.agustinnavarrogaldon.com/wordpress"
             />
           </Col>
@@ -55,27 +57,27 @@ export default function HomeCourses() {
         <Row className="row-courses">
           <Col md={6}>
             <CardCourse
-              image={prestaShop}
-              title="PrestaShop 1.7"
-              subtitle="Básico - PrestaShop"
-              link="https://courses.agustinnavarrogaldon.com/prestashop"
+              image={puntoscharffQuicView}
+              title="Punto Scharff Bot"
+              subtitle="CRUD(SQL) - Chat-bot"
+              link="https://www.facebook.com/messages/t/100695861308072"
             />
           </Col>
           <Col md={6} />
           <Col md={6} />
           <Col md={6}>
             <CardCourse
-              image={cssGrid}
-              title="CSS Grid"
-              subtitle="Intermedio - CSS"
-              link="https://courses.agustinnavarrogaldon.com/css-grid"
+              image={puntoscharffQuicView}
+              title="Proteo Bot"
+              subtitle="Informative - Chat-bot"
+              link="https://www.facebook.com/messages/t/105285874227515"
             />
           </Col>
         </Row>
       </Col>
       <Col lg={4} />
       <Col lg={24} className="home-courses__more">
-        <Link to="/courses">
+        <Link to="/blog">
           <Button>Ver más</Button>
         </Link>
       </Col>

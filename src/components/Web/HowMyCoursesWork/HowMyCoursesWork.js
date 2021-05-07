@@ -14,11 +14,8 @@ export default function HowMyCoursesWork() {
   return (
     <Row className="how-my-courses-work">
       <Col lg={24} className="how-my-courses-work__title">
-        <h2>¿Cómo funcionan mis cursos?</h2>
-        <h3>
-          Cada curso cuenta con contenido bajo la web de Udemy, activa las 24
-          horas al día los 365 días del año
-        </h3>
+        <h2>Knowledge</h2>
+        <h3>Short knowledge summary</h3>
       </Col>
 
       <Col lg={4} />
@@ -27,21 +24,21 @@ export default function HowMyCoursesWork() {
           <Col md={8}>
             <CardInfo
               icon={<ClockCircleOutlined className="ccoutlined" />}
-              title="Cursos y Clases"
+              title="Java"
               description="Cursos de entre 10 y 30 horas y cada clase del curso con duración máxima de 15 minutos, faciles de llevar en tu día a día de aprendizaje."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<KeyOutlined className="koutlined" />}
-              title="Acceso 24/7"
+              title="Kotlin"
               description="Accede a los cursos en cualquier momento, desde cualquier lugar sin importar día y hora."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<MessageOutlined className="msgoutlined" />}
-              title="Aprendizaje colaboratico"
+              title="Swift"
               description="Aprende de los demás dejando tus dudas para que profesores y compañeros te ayuden."
             />
           </Col>
@@ -50,21 +47,21 @@ export default function HowMyCoursesWork() {
           <Col md={8}>
             <CardInfo
               icon={<UserOutlined className="ussoutlined" />}
-              title="Mejora tu perfil"
+              title="React"
               description="Aprende y mejora tu perfil para mantenerte informado de actualizaciones."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<DollarOutlined className="ddoulined" />}
-              title="Precios bajos"
+              title="C#"
               description="Obtén el curso que necesitas por solo 9.99 y ten acceso a el por tiempo ilimitado y soporte ilimitado."
             />
           </Col>
           <Col md={8}>
             <CardInfo
               icon={<CheckCircleOutlined className="ccoutlineds" />}
-              title="Certificador de finalización"
+              title="Node JS"
               description="Al completar tu un curso recibirás una certificación que te expedirá Udemy en PDF."
             />
           </Col>

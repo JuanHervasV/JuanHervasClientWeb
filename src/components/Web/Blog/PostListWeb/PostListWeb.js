@@ -42,10 +42,10 @@ export default function PostsListWeb(props) {
   return (
     <>
       <Helmet>
-        <title>Proyectos realizados | Juan Hervas</title>
+        <title>Proyects | Juan Hervas</title>
       </Helmet>
       <div className="posts-list-web">
-        <h1>Blog</h1>
+        <h1>Portfolio</h1>
         <List
           dataSource={posts.docs}
           renderItem={(post) => <Post post={post} />}

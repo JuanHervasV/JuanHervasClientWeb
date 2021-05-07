@@ -11,9 +11,9 @@ export default function MainBanner() {
         <Col lg={4} />
         <Col lg={16}>
           <h2>
-            Web en <br /> testeo
+            Juan Hervas <br />
           </h2>
-          <h3>Testing web..</h3>
+          <h3>Software Developer</h3>
         </Col>
         <Col lg={4} />
       </Row>
