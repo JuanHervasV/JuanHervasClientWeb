@@ -34,7 +34,7 @@ export default function SocialLinks() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <GithubIcon />
+        <LinkedInIcon />
       </a>
     </div>
   );

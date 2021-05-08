@@ -21,9 +21,9 @@ export function getCourseDataUdemyApi(id) {
   const url = baseUrl + coursesParams;
   const token =
     "Basic SWl4MUU3TXFPOENoenM1U3Zlc0hkSTVYWlBONEQ5Q0xkZElhVnRsRTpqMnk0eWhQZHNoU3hlZ2J4aFRydk9pbXB4RTRJdTVoSnBrY1dLRGJwcmlCbkhvT1lkVDlJMk9YVlpac21rWFdJQjFYU05IcDBlbWtLem1MUmNuTGh3ZVE5N2xjV2RaRnQzTms4b2FRZWdqZTQ3VDBidE14ektBSENhMHRXbzcwNg==";
-
   const params = {
     method: "GET",
+
     headers: {
       Accept: "application/json, text/plain, */*",
       Authorization: token,
@@ -32,16 +32,14 @@ export function getCourseDataUdemyApi(id) {
   };
 
   return fetch(url, params)
-    .then((response) => {
-      return response.json();
+    .then(async (response) => {
+      return { code: response.status, data: await response.json() };
     })
     .then((result) => {
-      console.log(result);
-
       return result;
     })
     .catch((err) => {
-      return err.message;
+      return err;
     });
 }
 
