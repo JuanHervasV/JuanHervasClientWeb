@@ -32,7 +32,7 @@ export default function Courses() {
         <title>Cursos | Juan Hervas</title>
         <meta
           name="description"
-          content="Cursos | Web sobre programación de Agustín Navarro Galdon"
+          content="Cursos | Web porfolio de Juan Hervas"
           data-react-helmet="true"
         />
       </Helmet>
