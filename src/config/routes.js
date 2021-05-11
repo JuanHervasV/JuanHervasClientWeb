@@ -71,12 +71,17 @@ const routes = [
         exact: true,
       },
       {
+        path: "/about-me",
+        component: Contact,
+        exact: true,
+      },
+      {
         path: "/contact",
         component: Contact,
         exact: true,
       },
       {
-        path: "/courses",
+        path: "/skills",
         component: Courses,
         exact: true,
       },

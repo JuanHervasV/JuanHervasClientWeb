@@ -1,6 +1,4 @@
 import React from "react";
-import { ReactComponent as YouTubeIcon } from "../../../assets/img/svg/youtube.svg";
-import { ReactComponent as TwitterIcon } from "../../../assets/img/svg/twitter.svg";
 import { ReactComponent as FacebookIcon } from "../../../assets/img/svg/facebook.svg";
 import { ReactComponent as LinkedInIcon } from "../../../assets/img/svg/linkedin.svg";
 import { ReactComponent as GithubIcon } from "../../../assets/img/svg/github.svg";
@@ -34,7 +32,7 @@ export default function SocialLinks() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <LinkedInIcon />
+        <GithubIcon />
       </a>
     </div>
   );

@@ -4,7 +4,7 @@ import MainBanner from "../components/Web/MainBanner";
 import HomeCourses from "../components/Web/HomeCourses";
 import HowMyCoursesWork from "../components/Web/HowMyCoursesWork/HowMyCoursesWork";
 import ReviewsCourses from "../components/Web/ReviewsCourses/ReviewsCourses";
-import CoursesPage from "./Courses";
+
 export default function Home() {
   const TITLE = "Juan Hervas";
   return (
@@ -21,7 +21,6 @@ export default function Home() {
       <HomeCourses />
       <HowMyCoursesWork />
       <ReviewsCourses />
-      <CoursesPage />
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import routes from "./config/routes";
 import AuthProvider from "./providers/AuthProvider";
-
+import KommunucateChat from "./chat";
 import "./App.scss";
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
           ))}
         </Switch>
       </Router>
+      <KommunucateChat />
     </AuthProvider>
   );
 }
