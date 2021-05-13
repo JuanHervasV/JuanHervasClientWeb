@@ -46,7 +46,7 @@ const NavLinks = (props) => {
           </Menu.Item>
         );
       })}
-      <SocialLinks />
+      <SocialLinks className="soci" />
     </Menu>
   );
 };

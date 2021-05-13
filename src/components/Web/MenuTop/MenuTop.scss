@@ -54,7 +54,6 @@
       align-items: center !important;
       justify-content: center !important;
       float: center !important;
-      margin-left: 130px;
 
       img {
         align-items: center !important;
@@ -90,17 +89,20 @@
     display: flex;
     float: left;
     flex-direction: column;
-    margin-top: 100px;
     right: 0;
-    width: 100%;
-    background: red;
+    width: 150% !important;
+    background: $background-dark-web;
 
     li {
-      margin-top: 100px;
       padding-left: 15%;
+      flex-direction: column;
       a {
+        color: #fff !important;
+        font-size: medium !important;
+        font-weight: bold;
+
         &:hover {
-          color: red;
+          color: $primary-color !important;
         }
       }
     }
