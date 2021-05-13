@@ -11,10 +11,10 @@ export default function LayoutBasic(props) {
 
   return (
     <>
-      <Row>
+      <Row className="rowlb">
         <Col md={4} />
         <Col md={16}>
-          <MenuTop />
+          <MenuTop classname="menutop" />
         </Col>
         <Col md={4} />
       </Row>

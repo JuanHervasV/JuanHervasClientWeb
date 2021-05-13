@@ -29,10 +29,10 @@ export default function Courses() {
   return (
     <>
       <Helmet>
-        <title>Cursos | Juan Hervas</title>
+        <title>Skills | Juan Hervas</title>
         <meta
           name="description"
-          content="Cursos | Web porfolio de Juan Hervas"
+          content="Skills | Web porfolio de Juan Hervas"
           data-react-helmet="true"
         />
       </Helmet>
@@ -40,14 +40,14 @@ export default function Courses() {
         <Col md={4} />
         <Col md={16}>
           <PresentationCourses />
-          {!courses ? (
+          {/*{!courses ? (
             <Spin
               tip="Cargando cursos"
               style={{ textAlign: "center", width: "100%", padding: "20px" }}
             />
           ) : (
             <CoursesList courses={courses} />
-          )}
+          )}*/}
         </Col>
         <Col md={4} />
       </Row>

@@ -6,6 +6,8 @@ import moment from "moment";
 import queryString from "query-string";
 import Pagination from "../../../Pagination";
 import { getPostsApi } from "../../../../api/post";
+import PortfolioLogo from "../../../../assets/img/png/portfolioimg.png";
+
 import "moment/locale/es";
 
 import "./PostListWeb.scss";
@@ -42,10 +44,10 @@ export default function PostsListWeb(props) {
   return (
     <>
       <Helmet>
-        <title>Proyects | Juan Hervas</title>
+        <title>Portfolio | Juan Hervas</title>
       </Helmet>
       <div className="posts-list-web">
-        <h1>Portfolio</h1>
+        <img src={PortfolioLogo} alt="Juan Hervas" />
         <List
           dataSource={posts.docs}
           renderItem={(post) => <Post post={post} />}

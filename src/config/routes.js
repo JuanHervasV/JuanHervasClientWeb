@@ -15,7 +15,7 @@ import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 import Courses from "../pages/Courses";
 import Blog from "../pages/Blog";
-
+import AboutMe from "../pages/AboutMe";
 //Other
 import Error404 from "../pages/Error404";
 
@@ -72,7 +72,7 @@ const routes = [
       },
       {
         path: "/about-me",
-        component: Contact,
+        component: AboutMe,
         exact: true,
       },
       {

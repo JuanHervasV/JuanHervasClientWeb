@@ -1,12 +1,21 @@
 @import "../../../scss/index.scss";
 
+.menuinfos {
+  .logo {
+    float: left;
+    display: inline;
+    padding: 10px;
+
+    img {
+      width: 200px;
+    }
+  }
+}
 .menu-top-web {
   position: sticky;
   top: 0;
-  margin-top: 5px;
-  margin-bottom: 5px;
   background-color: $background-dark-web;
-  border: 0;
+  border: 5px;
   display: flex;
   align-items: center;
 
@@ -22,12 +31,78 @@
       }
     }
   }
+}
 
-  &__logo {
-    padding: 10px;
+.mobile-navigation {
+  display: none;
+}
 
-    img {
-      width: 200px;
+@media (max-width: 990px) {
+  body {
+    display: flex;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .menuinfos {
+    align-items: center !important;
+    justify-content: center !important;
+
+    .logo {
+      align-items: center !important;
+      justify-content: center !important;
+      float: center !important;
+      margin-left: 130px;
+
+      img {
+        align-items: center !important;
+        justify-content: center !important;
+        width: 200px;
+      }
+    }
+  }
+
+  .mobile-navigation {
+    display: flex;
+    background-color: $background-dark-web;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    height: 100% !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    .hamburguer {
+      align-items: center;
+      justify-content: center;
+      display: inline;
+      cursor: pointer;
+    }
+  }
+
+  .menu-top-web {
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    margin-top: 100px;
+    right: 0;
+    width: 100%;
+    background: red;
+
+    li {
+      margin-top: 100px;
+      padding-left: 15%;
+      a {
+        &:hover {
+          color: red;
+        }
+      }
     }
   }
 }
