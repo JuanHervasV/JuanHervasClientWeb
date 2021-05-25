@@ -1,16 +1,14 @@
 @import "../../../scss/index.scss";
 
 .social-links {
-  display: inline;
+  display: flex;
   align-items: center;
-  justify-content: center;
-  float: left;
-  width: auto;
+  justify-content: flex-end;
+  width: 100%;
 
   a {
     display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    margin-right: 10px;
     padding: 5px 8px;
     border-radius: 5px;
 
@@ -30,6 +28,42 @@
     svg {
       width: 15px;
       height: 20px;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .social-links {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: auto;
+
+    a {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      padding: 5px 8px;
+      border-radius: 5px;
+
+      &.youtube {
+        background-color: $youtube;
+      }
+      &.facebook {
+        background-color: $facebook;
+      }
+      &.github {
+        background-color: $github;
+      }
+      &.linkedin {
+        background-color: $linkedin;
+      }
+
+      svg {
+        width: 15px;
+        height: 20px;
+      }
     }
   }
 }

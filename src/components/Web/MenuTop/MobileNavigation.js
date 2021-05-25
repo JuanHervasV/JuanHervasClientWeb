@@ -20,7 +20,7 @@ const MobileNavigation = () => {
   const closeicon = (
     <CgCloseO
       className="hamburguer"
-      size="35px"
+      size="40px"
       color="white"
       alignmentBaseline="center"
       onClick={() => setOpen(!open)}
