@@ -84,14 +84,17 @@
 
   .menu-top-web {
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     opacity: 1;
     display: flex;
-    float: left;
+    float: right;
     flex-direction: column;
-    right: 0;
     width: 150% !important;
     background: $background-dark-web;
+
+    .soci {
+      background: rgb(121, 16, 16) !important;
+    }
 
     li {
       padding-left: 15%;

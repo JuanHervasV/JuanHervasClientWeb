@@ -1,14 +1,16 @@
 @import "../../../scss/index.scss";
 
 .social-links {
-  display: flex;
+  display: inline;
   align-items: center;
-  justify-content: flex-end;
-  width: 100%;
+  justify-content: center;
+  float: left;
+  width: auto;
 
   a {
     display: flex;
-    margin-right: 10px;
+    justify-content: center;
+    margin-top: 10px;
     padding: 5px 8px;
     border-radius: 5px;
 
