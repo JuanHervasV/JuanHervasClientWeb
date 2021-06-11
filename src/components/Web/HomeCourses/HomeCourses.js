@@ -1,15 +1,12 @@
 import React from "react";
 import { Row, Col, Card, Button } from "antd";
 import { Link } from "react-router-dom";
-import reactJsHooks from "../../../assets/img/jpg/react-js-hooks.jpg";
-import reactNative from "../../../assets/img/jpg/react-native.jpg";
-import javaScript from "../../../assets/img/jpg/javascript-es6.jpg";
-import wordPress from "../../../assets/img/jpg/wordpress.jpg";
-import prestaShop from "../../../assets/img/jpg/prestashop-1-7.jpg";
-import cssGrid from "../../../assets/img/jpg/css-grid.jpg";
+import wapQuickView from "../../../assets/img/png/waplogin.png";
+import sgdQuickView from "../../../assets/img/png/SGDLogin.png";
 import ruteandoQuickView from "../../../assets/img/png/ruteando-quickview.png";
 import puntoscharffQuicView from "../../../assets/img/png/puntoscharff-quickview.png";
-
+import hitosscharffQuickView from "../../../assets/img/png/hitosscharff.png";
+import psQuickView from "../../../assets/img/png/psshopimg.png";
 import "./HomeCourses.scss";
 
 export default function HomeCourses() {
@@ -31,7 +28,7 @@ export default function HomeCourses() {
           </Col>
           <Col md={6}>
             <CardCourse
-              image={ruteandoQuickView}
+              image={hitosscharffQuickView}
               title="Hitos"
               subtitle="Status changer Mobile App"
               link="https://play.google.com/store/apps/details?id=com.JuanHervas.HitoScharff"
@@ -39,7 +36,7 @@ export default function HomeCourses() {
           </Col>
           <Col md={6}>
             <CardCourse
-              image={ruteandoQuickView}
+              image={sgdQuickView}
               title="SGD Valija"
               subtitle="Barcode Scanner Mobile App"
               link="https://play.google.com/store/apps/details?id=com.JH.SGDScharffAgo"
@@ -47,10 +44,10 @@ export default function HomeCourses() {
           </Col>
           <Col md={6}>
             <CardCourse
-              image={ruteandoQuickView}
+              image={wapQuickView}
               title="Wap Reborn"
               subtitle="Pick up packages Mobile App"
-              link="https://play.google.com/store/apps/details?id=com.JH.SGDScharffAgo"
+              link="https://play.google.com/store/apps/details?id=com.JH.wapreborn"
             />
           </Col>
         </Row>
@@ -67,10 +64,10 @@ export default function HomeCourses() {
           <Col md={6} />
           <Col md={6}>
             <CardCourse
-              image={puntoscharffQuicView}
-              title="Proteo Bot"
+              image={psQuickView}
+              title="Personal Shopper Bot"
               subtitle="Informative - Chat-bot"
-              link="https://www.facebook.com/messages/t/100695861308072"
+              link="https://bot.dialogflow.com/e38f9999-8733-45c5-a22d-a42f07d8e399"
             />
           </Col>
         </Row>
