@@ -16,6 +16,9 @@ import Contact from "../pages/Contact";
 import Courses from "../pages/Courses";
 import Blog from "../pages/Blog";
 import AboutMe from "../pages/AboutMe";
+
+//Apps privacy
+import PoliticaPrivacidad from "../pages/PoliticaPrivacidad"
 //Other
 import Error404 from "../pages/Error404";
 
@@ -94,6 +97,11 @@ const routes = [
         path: "/blog/:url",
         component: Blog,
         exact: true,
+      },
+      {
+        path: "/politica-privacidad-adivina-el-numero"
+        component: PoliticaPrivacidad,
+        exact: true
       },
       {
         component: Error404,
