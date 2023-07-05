@@ -3,7 +3,7 @@ import React from "react";
 export default function PoliticaPrivacidad(){
     return(
         <div className="politicaprivacidad">
-        <p align="justify" style="color: white;"><h3>Política de Privacidad</h3></p>
+        <p align="justify"><h3>Política de Privacidad</h3></p>
 <p><n>Adivina el Número</n></p>
 <p>Última actualización: 04 Julio 2023</p>
 <p align="justify">Esta Política de Privacidad describe cómo se manejan los datos en la aplicación móvil &quot;Adivina el Número&quot; (&quot;nosotros&quot;, &quot;nuestro&quot;). Nos comprometemos a proteger la privacidad de nuestros usuarios y a garantizar la confidencialidad de la información proporcionada. Esta política se aplica al uso de la aplicación y describe cómo se gestionan los datos recopilados. </p>
