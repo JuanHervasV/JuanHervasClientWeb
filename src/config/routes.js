@@ -99,7 +99,7 @@ const routes = [
         exact: true,
       },
       {
-        path: "/politica-privacidad-adivina-el-numero"
+        path: "/politica-privacidad-adivina-el-numero",
         component: PoliticaPrivacidad,
         exact: true
       },
