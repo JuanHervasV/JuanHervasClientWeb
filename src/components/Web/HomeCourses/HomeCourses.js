@@ -2,6 +2,7 @@ import React from "react";
 import { Row, Col, Card, Button } from "antd";
 import { Link } from "react-router-dom";
 import wapQuickView from "../../../assets/img/png/waplogin.png";
+import adivinaelnumeroQuickView from "../../../assets/img/png/adivinaelnumero.jpg";
 import sgdQuickView from "../../../assets/img/png/SGDLogin.png";
 import ruteandoQuickView from "../../../assets/img/png/ruteando-quickview.png";
 import puntoscharffQuicView from "../../../assets/img/png/puntoscharff-quickview.png";
@@ -48,6 +49,14 @@ export default function HomeCourses() {
               title="Wap Reborn"
               subtitle="Pick up packages Mobile App"
               link="https://play.google.com/store/apps/details?id=com.JH.wapreborn"
+            />
+          </Col>
+          <Col md={6}>
+            <CardCourse
+              image={adivinaelnumeroQuickView}
+              title="Adivina El Número"
+              subtitle="Juego de entretenimiento"
+              link="https://play.google.com/store/apps/details?id=com.jh.adivinaelnumero"
             />
           </Col>
         </Row>
