@@ -27,7 +27,7 @@ export default function Footer() {
           </Row>
           <Row className="footer__copyright">
             <Col md={12}>© 2021 ALL RIGHTS RESERVED​</Col>
-            <Col md={12}>Juan Hervas | Software Developer</Col>
+            <Col md={12}>Juan Hervas | Android Developer</Col>
           </Row>
         </Col>
         <Col md={4} />
