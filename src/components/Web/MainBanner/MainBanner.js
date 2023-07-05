@@ -13,7 +13,7 @@ export default function MainBanner() {
           <h2>
             Juan Hervas <br />
           </h2>
-          <h3>Software Developer</h3>
+          <h3>Android Developer</h3>
         </Col>
         <Col lg={4} />
       </Row>
