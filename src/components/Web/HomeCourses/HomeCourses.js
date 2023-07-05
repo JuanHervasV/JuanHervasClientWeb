@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Card, Button } from "antd";
 import { Link } from "react-router-dom";
 import wapQuickView from "../../../assets/img/png/waplogin.png";
-import adivinaelnumeroQuickView from "../../../assets/img/png/adivinaelnumero.jpg";
+import adivinaelnumeroQuickView from "../../../assets/img/jpg/adivinaelnumero.jpg";
 import sgdQuickView from "../../../assets/img/png/SGDLogin.png";
 import ruteandoQuickView from "../../../assets/img/png/ruteando-quickview.png";
 import puntoscharffQuicView from "../../../assets/img/png/puntoscharff-quickview.png";
