@@ -1,4 +1,5 @@
 import React from "react";
+import "./PoliticaPrivacidad.scss";
 
 export default function PoliticaPrivacidad(){
     return(
